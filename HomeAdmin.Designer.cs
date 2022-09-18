@@ -46,6 +46,7 @@
             this.lbl_tit = new System.Windows.Forms.Label();
             this.currentIcon = new FontAwesome.Sharp.IconPictureBox();
             this.panel_primary = new System.Windows.Forms.Panel();
+            this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.pnl_menu.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_home)).BeginInit();
@@ -54,6 +55,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_maximize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exit_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.currentIcon)).BeginInit();
+            this.panel_primary.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_menu
@@ -349,11 +352,29 @@
             // panel_primary
             // 
             this.panel_primary.BackColor = System.Drawing.Color.LightPink;
+            this.panel_primary.Controls.Add(this.bunifuPictureBox1);
             this.panel_primary.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_primary.Location = new System.Drawing.Point(220, 75);
             this.panel_primary.Name = "panel_primary";
             this.panel_primary.Size = new System.Drawing.Size(1100, 669);
             this.panel_primary.TabIndex = 2;
+            // 
+            // bunifuPictureBox1
+            // 
+            this.bunifuPictureBox1.AllowFocused = false;
+            this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox1.AutoSizeHeight = true;
+            this.bunifuPictureBox1.BackColor = System.Drawing.Color.Crimson;
+            this.bunifuPictureBox1.BorderRadius = 179;
+            this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
+            this.bunifuPictureBox1.IsCircle = true;
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(371, 155);
+            this.bunifuPictureBox1.Name = "bunifuPictureBox1";
+            this.bunifuPictureBox1.Size = new System.Drawing.Size(358, 358);
+            this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox1.TabIndex = 0;
+            this.bunifuPictureBox1.TabStop = false;
+            this.bunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
             // 
             // pri_form
             // 
@@ -373,6 +394,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_maximize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exit_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.currentIcon)).EndInit();
+            this.panel_primary.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -396,6 +419,7 @@
         private System.Windows.Forms.Panel panel_primary;
         private FontAwesome.Sharp.IconPictureBox btn_minimize;
         private FontAwesome.Sharp.IconPictureBox btn_maximize;
+        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
     }
 }
 

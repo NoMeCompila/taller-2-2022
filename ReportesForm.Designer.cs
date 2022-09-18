@@ -50,24 +50,26 @@
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.clients_ico = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.Cal = new FontAwesome.Sharp.IconButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bunifuDatePicker2 = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.bunifuDatePicker1 = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.btn_ex = new FontAwesome.Sharp.IconButton();
             this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel10 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuRadioButton3 = new Bunifu.UI.WinForms.BunifuRadioButton();
-            this.bunifuRadioButton2 = new Bunifu.UI.WinForms.BunifuRadioButton();
-            this.bunifuRadioButton1 = new Bunifu.UI.WinForms.BunifuRadioButton();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.bunifuLabel9 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel2.SuspendLayout();
             this.bunifuGradientPanel4.SuspendLayout();
             this.bunifuGradientPanel3.SuspendLayout();
             this.bunifuGradientPanel2.SuspendLayout();
             this.bunifuGradientPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -376,159 +378,6 @@
             this.panel1.TabIndex = 22;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.bunifuLabel9);
-            this.panel3.Controls.Add(this.btn_ex);
-            this.panel3.Controls.Add(this.bunifuLabel12);
-            this.panel3.Controls.Add(this.bunifuLabel11);
-            this.panel3.Controls.Add(this.bunifuLabel10);
-            this.panel3.Controls.Add(this.bunifuRadioButton3);
-            this.panel3.Controls.Add(this.bunifuRadioButton2);
-            this.panel3.Controls.Add(this.bunifuRadioButton1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(759, 181);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(319, 432);
-            this.panel3.TabIndex = 23;
-            // 
-            // btn_ex
-            // 
-            this.btn_ex.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_ex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btn_ex.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_ex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ex.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ex.ForeColor = System.Drawing.Color.White;
-            this.btn_ex.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
-            this.btn_ex.IconColor = System.Drawing.Color.White;
-            this.btn_ex.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_ex.IconSize = 50;
-            this.btn_ex.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_ex.Location = new System.Drawing.Point(78, 343);
-            this.btn_ex.Name = "btn_ex";
-            this.btn_ex.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btn_ex.Size = new System.Drawing.Size(211, 77);
-            this.btn_ex.TabIndex = 39;
-            this.btn_ex.Text = "Exportar";
-            this.btn_ex.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_ex.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_ex.UseVisualStyleBackColor = false;
-            // 
-            // bunifuLabel12
-            // 
-            this.bunifuLabel12.AllowParentOverrides = false;
-            this.bunifuLabel12.AutoEllipsis = false;
-            this.bunifuLabel12.CursorType = null;
-            this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.bunifuLabel12.Location = new System.Drawing.Point(57, 146);
-            this.bunifuLabel12.Name = "bunifuLabel12";
-            this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel12.Size = new System.Drawing.Size(96, 45);
-            this.bunifuLabel12.TabIndex = 38;
-            this.bunifuLabel12.Text = "Ventas";
-            this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel11
-            // 
-            this.bunifuLabel11.AllowParentOverrides = false;
-            this.bunifuLabel11.AutoEllipsis = false;
-            this.bunifuLabel11.CursorType = null;
-            this.bunifuLabel11.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.bunifuLabel11.Location = new System.Drawing.Point(57, 269);
-            this.bunifuLabel11.Name = "bunifuLabel11";
-            this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel11.Size = new System.Drawing.Size(144, 45);
-            this.bunifuLabel11.TabIndex = 37;
-            this.bunifuLabel11.Text = "Productos";
-            this.bunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel11.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel10
-            // 
-            this.bunifuLabel10.AllowParentOverrides = false;
-            this.bunifuLabel10.AutoEllipsis = false;
-            this.bunifuLabel10.CursorType = null;
-            this.bunifuLabel10.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.bunifuLabel10.Location = new System.Drawing.Point(57, 208);
-            this.bunifuLabel10.Name = "bunifuLabel10";
-            this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel10.Size = new System.Drawing.Size(113, 45);
-            this.bunifuLabel10.TabIndex = 36;
-            this.bunifuLabel10.Text = "Clientes";
-            this.bunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuRadioButton3
-            // 
-            this.bunifuRadioButton3.AllowBindingControlLocation = false;
-            this.bunifuRadioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRadioButton3.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.bunifuRadioButton3.BorderThickness = 3;
-            this.bunifuRadioButton3.Checked = false;
-            this.bunifuRadioButton3.Location = new System.Drawing.Point(232, 281);
-            this.bunifuRadioButton3.Name = "bunifuRadioButton3";
-            this.bunifuRadioButton3.OutlineColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton3.OutlineColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton3.OutlineColorUnchecked = System.Drawing.Color.DarkGray;
-            this.bunifuRadioButton3.RadioColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton3.RadioColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton3.Size = new System.Drawing.Size(33, 33);
-            this.bunifuRadioButton3.TabIndex = 2;
-            this.bunifuRadioButton3.Text = null;
-            // 
-            // bunifuRadioButton2
-            // 
-            this.bunifuRadioButton2.AllowBindingControlLocation = false;
-            this.bunifuRadioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRadioButton2.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.bunifuRadioButton2.BorderThickness = 3;
-            this.bunifuRadioButton2.Checked = false;
-            this.bunifuRadioButton2.Location = new System.Drawing.Point(232, 220);
-            this.bunifuRadioButton2.Name = "bunifuRadioButton2";
-            this.bunifuRadioButton2.OutlineColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton2.OutlineColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton2.OutlineColorUnchecked = System.Drawing.Color.DarkGray;
-            this.bunifuRadioButton2.RadioColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton2.RadioColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton2.Size = new System.Drawing.Size(33, 33);
-            this.bunifuRadioButton2.TabIndex = 1;
-            this.bunifuRadioButton2.Text = null;
-            // 
-            // bunifuRadioButton1
-            // 
-            this.bunifuRadioButton1.AllowBindingControlLocation = false;
-            this.bunifuRadioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRadioButton1.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.bunifuRadioButton1.BorderThickness = 3;
-            this.bunifuRadioButton1.Checked = true;
-            this.bunifuRadioButton1.Location = new System.Drawing.Point(232, 158);
-            this.bunifuRadioButton1.Name = "bunifuRadioButton1";
-            this.bunifuRadioButton1.OutlineColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton1.OutlineColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton1.OutlineColorUnchecked = System.Drawing.Color.DarkGray;
-            this.bunifuRadioButton1.RadioColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton1.RadioColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton1.Size = new System.Drawing.Size(33, 33);
-            this.bunifuRadioButton1.TabIndex = 0;
-            this.bunifuRadioButton1.Text = null;
-            // 
-            // bunifuLabel9
-            // 
-            this.bunifuLabel9.AllowParentOverrides = false;
-            this.bunifuLabel9.AutoEllipsis = false;
-            this.bunifuLabel9.CursorType = null;
-            this.bunifuLabel9.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.bunifuLabel9.Location = new System.Drawing.Point(42, 32);
-            this.bunifuLabel9.Name = "bunifuLabel9";
-            this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel9.Size = new System.Drawing.Size(223, 90);
-            this.bunifuLabel9.TabIndex = 40;
-            this.bunifuLabel9.Text = "Seleccione para\r\nExportar a Excel";
-            this.bunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel9.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // chart1
             // 
             chartArea1.Name = "ChartArea1";
@@ -545,6 +394,219 @@
             this.chart1.Size = new System.Drawing.Size(753, 426);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.bunifuLabel9);
+            this.panel3.Controls.Add(this.iconButton1);
+            this.panel3.Controls.Add(this.Cal);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.bunifuDatePicker2);
+            this.panel3.Controls.Add(this.bunifuDatePicker1);
+            this.panel3.Controls.Add(this.btn_ex);
+            this.panel3.Controls.Add(this.bunifuLabel12);
+            this.panel3.Controls.Add(this.bunifuLabel10);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(759, 181);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(319, 432);
+            this.panel3.TabIndex = 23;
+            // 
+            // Cal
+            // 
+            this.Cal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Cal.BackColor = System.Drawing.Color.Transparent;
+            this.Cal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cal.FlatAppearance.BorderSize = 0;
+            this.Cal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cal.ForeColor = System.Drawing.Color.White;
+            this.Cal.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
+            this.Cal.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
+            this.Cal.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.Cal.IconSize = 70;
+            this.Cal.Location = new System.Drawing.Point(246, 271);
+            this.Cal.Name = "Cal";
+            this.Cal.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.Cal.Size = new System.Drawing.Size(70, 72);
+            this.Cal.TabIndex = 44;
+            this.Cal.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(7, 106);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 45);
+            this.label2.TabIndex = 43;
+            this.label2.Text = "Hasta";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(5, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(109, 45);
+            this.label1.TabIndex = 42;
+            this.label1.Text = "Desde";
+            // 
+            // bunifuDatePicker2
+            // 
+            this.bunifuDatePicker2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuDatePicker2.BackColor = System.Drawing.Color.White;
+            this.bunifuDatePicker2.BorderColor = System.Drawing.Color.Red;
+            this.bunifuDatePicker2.BorderRadius = 16;
+            this.bunifuDatePicker2.CalendarForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker2.CalendarMonthBackground = System.Drawing.SystemColors.HighlightText;
+            this.bunifuDatePicker2.Color = System.Drawing.Color.Red;
+            this.bunifuDatePicker2.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thick;
+            this.bunifuDatePicker2.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker2.DisplayWeekNumbers = false;
+            this.bunifuDatePicker2.DPHeight = 0;
+            this.bunifuDatePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker2.FillDatePicker = false;
+            this.bunifuDatePicker2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuDatePicker2.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.bunifuDatePicker2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker2.Icon")));
+            this.bunifuDatePicker2.IconColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker2.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker2.LeftTextMargin = 5;
+            this.bunifuDatePicker2.Location = new System.Drawing.Point(125, 60);
+            this.bunifuDatePicker2.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker2.Name = "bunifuDatePicker2";
+            this.bunifuDatePicker2.Size = new System.Drawing.Size(174, 39);
+            this.bunifuDatePicker2.TabIndex = 41;
+            this.bunifuDatePicker2.Value = new System.DateTime(2022, 9, 12, 13, 27, 0, 0);
+            // 
+            // bunifuDatePicker1
+            // 
+            this.bunifuDatePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuDatePicker1.BackColor = System.Drawing.Color.White;
+            this.bunifuDatePicker1.BorderColor = System.Drawing.Color.Red;
+            this.bunifuDatePicker1.BorderRadius = 16;
+            this.bunifuDatePicker1.CalendarForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker1.CalendarMonthBackground = System.Drawing.SystemColors.HighlightText;
+            this.bunifuDatePicker1.Color = System.Drawing.Color.Red;
+            this.bunifuDatePicker1.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thick;
+            this.bunifuDatePicker1.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker1.DisplayWeekNumbers = false;
+            this.bunifuDatePicker1.DPHeight = 0;
+            this.bunifuDatePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker1.FillDatePicker = false;
+            this.bunifuDatePicker1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuDatePicker1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.bunifuDatePicker1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker1.Icon")));
+            this.bunifuDatePicker1.IconColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker1.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker1.LeftTextMargin = 5;
+            this.bunifuDatePicker1.Location = new System.Drawing.Point(125, 112);
+            this.bunifuDatePicker1.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker1.Name = "bunifuDatePicker1";
+            this.bunifuDatePicker1.Size = new System.Drawing.Size(174, 39);
+            this.bunifuDatePicker1.TabIndex = 40;
+            this.bunifuDatePicker1.Value = new System.DateTime(2022, 9, 12, 13, 27, 0, 0);
+            // 
+            // btn_ex
+            // 
+            this.btn_ex.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_ex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
+            this.btn_ex.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_ex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ex.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ex.ForeColor = System.Drawing.Color.White;
+            this.btn_ex.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
+            this.btn_ex.IconColor = System.Drawing.Color.White;
+            this.btn_ex.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_ex.IconSize = 50;
+            this.btn_ex.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_ex.Location = new System.Drawing.Point(78, 175);
+            this.btn_ex.Name = "btn_ex";
+            this.btn_ex.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btn_ex.Size = new System.Drawing.Size(200, 59);
+            this.btn_ex.TabIndex = 39;
+            this.btn_ex.Text = "Exportar";
+            this.btn_ex.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_ex.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_ex.UseVisualStyleBackColor = false;
+            // 
+            // bunifuLabel12
+            // 
+            this.bunifuLabel12.AllowParentOverrides = false;
+            this.bunifuLabel12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel12.AutoEllipsis = false;
+            this.bunifuLabel12.CursorType = null;
+            this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.bunifuLabel12.Location = new System.Drawing.Point(104, 6);
+            this.bunifuLabel12.Name = "bunifuLabel12";
+            this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel12.Size = new System.Drawing.Size(96, 45);
+            this.bunifuLabel12.TabIndex = 38;
+            this.bunifuLabel12.Text = "Ventas";
+            this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel10
+            // 
+            this.bunifuLabel10.AllowParentOverrides = false;
+            this.bunifuLabel10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel10.AutoEllipsis = false;
+            this.bunifuLabel10.CursorType = null;
+            this.bunifuLabel10.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.bunifuLabel10.Location = new System.Drawing.Point(6, 287);
+            this.bunifuLabel10.Name = "bunifuLabel10";
+            this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel10.Size = new System.Drawing.Size(208, 38);
+            this.bunifuLabel10.TabIndex = 36;
+            this.bunifuLabel10.Text = "Exportar Clientes";
+            this.bunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
+            this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
+            this.iconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 70;
+            this.iconButton1.Location = new System.Drawing.Point(249, 349);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconButton1.Size = new System.Drawing.Size(70, 72);
+            this.iconButton1.TabIndex = 45;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            // 
+            // bunifuLabel9
+            // 
+            this.bunifuLabel9.AllowParentOverrides = false;
+            this.bunifuLabel9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel9.AutoEllipsis = false;
+            this.bunifuLabel9.CursorType = null;
+            this.bunifuLabel9.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.bunifuLabel9.Location = new System.Drawing.Point(9, 361);
+            this.bunifuLabel9.Name = "bunifuLabel9";
+            this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel9.Size = new System.Drawing.Size(234, 38);
+            this.bunifuLabel9.TabIndex = 46;
+            this.bunifuLabel9.Text = "Exportar Productos";
+            this.bunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel9.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // ReportesForm
             // 
@@ -567,9 +629,9 @@
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -596,13 +658,15 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel12;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel11;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel10;
-        private Bunifu.UI.WinForms.BunifuRadioButton bunifuRadioButton3;
-        private Bunifu.UI.WinForms.BunifuRadioButton bunifuRadioButton2;
-        private Bunifu.UI.WinForms.BunifuRadioButton bunifuRadioButton1;
         private FontAwesome.Sharp.IconButton btn_ex;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel9;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker2;
+        private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker1;
+        private FontAwesome.Sharp.IconButton Cal;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel9;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

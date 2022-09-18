@@ -31,5 +31,10 @@ namespace winformadvance
         {
 
         }
+
+        private void bunifuLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
