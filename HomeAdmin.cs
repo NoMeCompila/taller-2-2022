@@ -52,7 +52,6 @@ namespace winformadvance
             childForm.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-            //lbl_tit.Text = btn_user.Text;
         }
 
         public struct RGBcolors
@@ -206,6 +205,17 @@ namespace winformadvance
         private void btn_minimize_Click(object sender, EventArgs e)
         {
             WindowState=FormWindowState.Minimized;
+        }
+
+        private void horafecha_Tick(object sender, EventArgs e)
+        {
+            lbl_hora.Text = DateTime.Now.ToLongTimeString();
+            lbl_fecha.Text = DateTime.Now.ToShortDateString();
+        }
+
+        private void panel_primary_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
