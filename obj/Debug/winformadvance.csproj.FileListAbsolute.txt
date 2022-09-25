@@ -53,3 +53,4 @@ C:\Users\fernando.caballero\Desktop\dotnet\winformadvance\obj\Debug\winformadvan
 C:\Users\fernando.caballero\Desktop\dotnet\winformadvance\obj\Debug\winformadvance.VentasForm.resources
 C:\Users\fernando.caballero\Desktop\dotnet\winformadvance\obj\Debug\winformadvance.ReportesForm.resources
 C:\Users\fernando.caballero\Desktop\dotnet\winformadvance\bin\Debug\Bunifu.Charts.WinForms.xml
+C:\Users\fernando.caballero\Desktop\dotnet\winformadvance\obj\Debug\winformadvance.Login.resources
